@@ -1,0 +1,9 @@
+{
+  "name" : "snipmate-snippets",
+  "author" : "Tiankui",
+  "repository" : {"type": "git", "url": "git://github.com/honza/snipmate-snippets.git"},
+  "dependencies" : {
+    "snipmate": {}
+  },
+  "description" : "community driven set of snippets for snipmate"
+}
