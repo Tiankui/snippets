@@ -845,4 +845,27 @@ snippet !
 	<!--[if gte IE 7]> IE Conditional Comment: Internet Explorer 7 and above <![endif]-->
 snippet !
 	<!-- [if lte IE 9]> IE Conditional Comment: Internet Explorer 9 and below <![endif]-->
-
+snippet rjs
+	require(['${1:jquery}','${2:underscore}'],function(${3:$,_}){
+		${4:content}
+	});
+snippet <
+	<% ${1:bulabula~} %>
+snippet <=
+	<%= ${1:bulabula~} %>
+snippet if
+	<% if(${1:condition}){ %>
+		${2:doThings}
+	<% } %>
+snippet ife
+	<% if(${1:condition}){ %>
+		${2:doThings}
+	<% }else{ %>
+		${3:doElseThing}
+	<% } %>
+snippet forEach
+	<% ${1:Object}.forEach(function(item,key){ %>
+		${2:item.title}
+	<% }) %>
+snippet include
+	<% include ${1:block} %>

@@ -221,3 +221,11 @@ snippet mood
 	  var m = [ "^__^", "-___-;", ">.<", "<_>" ];
 	  return m[Math.floor(Math.random(*m.length)];
 	};
+snippet rjs
+	require(['${1:jquery}','${2:underscore}'],function(${3:$,_}){
+		${4:content}
+	});
+snippet iferr
+	if (err) {${1:throw err;}}
+snippet pre
+	e.preventDefault();
