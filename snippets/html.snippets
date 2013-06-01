@@ -869,3 +869,10 @@ snippet forEach
 	<% }) %>
 snippet include
 	<% include ${1:block} %>
+snippet require
+	require(["${1:helper/util}"], function(${2:util}) {
+	${3://This function is called when scripts/helper/util.js is loaded.
+	//If util.js calls define(, then this function is not fired until
+	//util's dependencies have loaded, and the util argument will hold
+	//the module value for "helper/util".}
+	});
