@@ -236,3 +236,34 @@ snippet require
 	//util's dependencies have loaded, and the util argument will hold
 	//the module value for "helper/util".}
 	});
+snippet pkg
+	{
+	  "name": "{1:app}",
+	  "description": "",
+	  "author": {
+	    "name": "ZhouWeiPing"
+		"mail": "eric.prototype@gmail.com"
+	  },
+	  "keywords": [
+	    "bai"
+	  ],
+	  "version": "0.3.7",
+	  "scripts": {
+	    "start": "node app.js"
+	  },
+	  "bin": {
+	    "bai": "./cli.js"
+	  },
+	  "repository": {
+	    "type": "git",
+	    "url": "https://github.com/Tiankui/bai"
+	  },
+	  "main": "./app.js",
+	  "dependencies": {
+	  },
+	  "engine": {
+	    "node": ">=0.8.18"
+	  },
+	  "readme": "",
+	  "readmeFilename": "README.md",
+	}
