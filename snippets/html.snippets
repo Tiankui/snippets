@@ -851,7 +851,7 @@ snippet rjs
 	});
 snippet <
 	<% ${1:bulabula~} %>
-snippet <=
+snippet =
 	<%= ${1:bulabula~} %>
 snippet if
 	<% if(${1:condition}){ %>
@@ -863,11 +863,11 @@ snippet ife
 	<% }else{ %>
 		${3:doElseThing}
 	<% } %>
-snippet forEach
+snippet each
 	<% ${1:Object}.forEach(function(item,key){ %>
 		${2:item.title}
 	<% }) %>
-snippet include
+snippet inc
 	<% include ${1:block} %>
 snippet require
 	require(["${1:helper/util}"], function(${2:util}) {
